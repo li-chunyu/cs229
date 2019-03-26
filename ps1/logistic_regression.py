@@ -63,5 +63,3 @@ if __name__ == "__main__":
             continue
         plt.plot(x, (t[0] * x + t[2]) / (-t[0]), label='iter {0}'.format(k+1), lw=0.5)
     plt.show()
-
-    
